@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <title>House Items</title>
+  </head>
+  <style>
+    body {
+      background: linear-gradient(
+        to top,
+        lightgrey 0%,
+        lightgrey 1%,
+        #e0e0e0 26%,
+        #efefef 48%,
+        #d9d9d9 75%,
+        #bcbcbc 100%
+      );
+    }
+    h1 {
+      max-width: 200px;
+      max-height: 200px;
+    }
+    img {
+      max-width: 400px;
+      max-height: 400px;
+      display: block;
+      align-content: center;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+    .kitchen {
+      margin-top: 20px;
+    }
+    .nav-buttons {
+      padding: 40px 40px 40px 40px;
+    }
+
+    .navbar-pink {
+      background-color: silver;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-pink fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> My Favorite Things</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  title="homepage"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" title="House Items" href="House.html"
+                  >House</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" title="Crafting" href="Crafting.html"
+                  >Crafting</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" title="Kiddos" href="Kiddos.html">Kiddos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" title="Gym Items" href="Gym.html">Gym</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="house">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/133/623/original/1.png?1721075884"
+          alt="House"
+          id="House"
+        />
+      </div>
+      <div class="kitchen">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <a href="https://amzn.to/467NGof" target="_blank">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/133/650/original/Screenshot_2024-07-15_at_9.48.03%E2%80%AFPM.png?1721098143"
+                  class="card-img-top"
+                  alt="Under Sink Organizer"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Under Sink Organizer</h5>
+                <p class="card-text">
+                  I love this Organizer! So easy to put together and fits just
+                  perfect.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="https://amzn.to/4bHviDD" target="_blank">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/133/652/original/Screenshot_2024-07-15_at_9.54.24%E2%80%AFPM.png?1721098477"
+                  class="card-img-top"
+                  alt="Can Organizer"
+                />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Can Organizer</h5>
+                <p class="card-text">
+                  I love this Organizer! Fits perfect in the pantry. Keep the
+                  older cans to the front and the newer cans in the back! Helps
+                  you keep track of the expiration dates!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="https://amzn.to/3S4Gkfq" target="_blank">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/133/653/original/Screenshot_2024-07-15_at_10.00.54%E2%80%AFPM.png?1721098875"
+                  class="card-img-top"
+                  alt="Spice Rack Organizer"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Spice Rack Organizer</h5>
+                <p class="card-text">
+                  My family has so many spices and this tool helps us keep the
+                  spices close up and neatly put away! This can also be used to
+                  store med bottles!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <div class="cooking">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <a href="https://amzn.to/3zJhMCc" target="_blank">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/133/662/original/Screenshot_2024-07-16_at_12.30.08%E2%80%AFAM.png?1721108144"
+                  class="card-img-top"
+                  alt="spatula with thermometer"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">spatula with thermometer</h5>
+                <p class="card-text">I love when items serve multi purposes!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="https://amzn.to/4644mN6" target="_blank">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/133/663/original/Screenshot_2024-07-16_at_12.42.51%E2%80%AFAM.png?1721108586"
+                  class="card-img-top"
+                  alt="Chicken Shredder"
+                />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Chicken Shredder</h5>
+                <p class="card-text">
+                  I love anything that makes the process go a lil bit faster!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="https://amzn.to/46atDVZ" target="_blank">
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/133/664/original/Screenshot_2024-07-16_at_12.48.19%E2%80%AFAM.png?1721108912"
+                  class="card-img-top"
+                  alt="Butter Slicer"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Butter Slicer</h5>
+                <p class="card-text">
+                  Now you can slice up the butter with this handy tool! It will
+                  be a huge help for big family dinners!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+  </body>
+</html>
